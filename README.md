@@ -118,3 +118,5 @@ openbmclapi 会自行同步需要的文件, 但是初次同步可能会速度过
 - `rsync -rzvP openbmclapi@home.933.moe::openbmclapi cache`
 - `rsync -avP openbmclapi@storage.yserver.ink::bmcl cache`
 - `rsync -azvrhP openbmclapi@openbmclapi.home.mxd.moe::volume cache`
+针对Windows用户，可以使用以下FTP服务器和其对应的登录凭据下载缓存。请注意：1.这些FTP服务器使用Unicode 2.由于Windows集成的FTP年久失修，请不要使用它。
+- `ftp://lineapp.ltd`（Username:getcache）（Password:getcache123）
